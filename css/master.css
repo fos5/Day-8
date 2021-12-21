@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #F0EDEC;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+}
+.container{
+  width: 85%;
+  margin: auto;
+  overflow: hidden;
+}
+header h1{
+  text-align: center;
+  margin-top: 40px;
+}
+.review-container{
+  position: fixed;
+   top: 50%;
+   left: 50%;
+   height: 75%;
+   /* bring your own prefixes */
+   transform: translate(-50%, -50%);
+   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0,0,0,0.22);
+   box-sizing: border-box;
+   overflow: hidden;
+
+}
+/* underline */
+.underline{
+  border-bottom: 3px solid  #3366cc;
+}
+/* images */
+img{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+/* h1 name */
+.cards h1{
+  font-size: 25px;
+  font-weight: bolder;
+  margin-top: 15px;
+  text-align: center;
+}
+.cards h3{
+  font-size:17px;
+  font-weight: bolder;
+  text-align: center;
+  color: #3366cc;
+}
+.cards p{
+  margin: 10px 25px;
+  text-align: center;
+  color: #303030;
+}
+
+/* arrows */
+.arrows{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+button.arrow{
+  font-weight: bold;
+  padding: 0px 5px;
+  margin: 0px 15px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #3366cc;
+  transition: 0.1s ease;
+}
+.prev , .next{
+  font-size: 20px;
+}
+.prev:hover , .next:hover{
+  transition: 0.1s ease-in;
+
+}
